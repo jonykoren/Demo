@@ -18,7 +18,7 @@ TRAIN_YOLO_TINY             = False
 TRAIN_SAVE_BEST_ONLY        = True # saves only best model according validation loss (True recommended)
 TRAIN_SAVE_CHECKPOINT       = False # saves all best validated checkpoints in training process (may require a lot disk space) (False recommended)
 TRAIN_CLASSES               = '/homedtic/ikoren/open/data_names.txt' 
-TRAIN_ANNOT_PATH            = '/homedtic/ikoren/open/conig_data/data_train.txt'           
+TRAIN_ANNOT_PATH            = '/homedtic/ikoren/open/config_data/data_train.txt'           
 TRAIN_LOGDIR                = "/homedtic/ikoren/555/logs" # Define path for Logs
 TRAIN_CHECKPOINTS_FOLDER    = "/homedtic/ikoren/555/weights" # Define path for weights
 TRAIN_MODEL_NAME            = f"{YOLO_TYPE}_custom" # model name
@@ -34,7 +34,7 @@ TRAIN_WARMUP_EPOCHS         = 2
 TRAIN_EPOCHS                = 100
 
 # TEST options
-TEST_ANNOT_PATH             = '/homedtic/ikoren/open/conig_data/data_test.txt' # 
+TEST_ANNOT_PATH             = '/homedtic/ikoren/open/config_data/data_test.txt' # 
 TEST_BATCH_SIZE             = 4
 TEST_INPUT_SIZE             = 416
 TEST_DATA_AUG               = False
