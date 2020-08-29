@@ -35,3 +35,7 @@ Finally, adjust your custom configurations at [config/configs.py](https://github
 If you have followed this instructions, you are good to go to train your custom model:
 * [train.py](https://github.com/jonykoren/Demo/blob/master/train.py)  
 by running ```python train.py```
+
+## Tensorboard
+In order to control the process run:  
+```tensorboard --logdir=weights```
