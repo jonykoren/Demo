@@ -30,6 +30,9 @@ by running ```python Prepare_data.py```
 Finally, adjust your custom configurations at [config/configs.py](https://github.com/jonykoren/Demo/blob/master/config/configs.py) if you want to change some paths 
 
 ## Training
+The training uses transfer learning of darknet network. You should download the pre-trained model of yolov3 through running the following command:  
+```wget -P model_data https://pjreddie.com/media/files/yolov3.weights```  
+
 If you have followed this instructions, you are good to go to train your custom model:
 * [train.py](https://github.com/jonykoren/Demo/blob/master/train.py)  
 by running ```python train.py```
