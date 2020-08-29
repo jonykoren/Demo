@@ -16,15 +16,15 @@ video_path   = "/path/to/vid.mp4"
 vidy = '/path/to/vid_detected.mp4'
 
 
-#Darknet_weights = YOLO_V3_WEIGHTS
-Darknet_weights = os.path.join(TRAIN_CHECKPOINTS_FOLDER, TRAIN_MODEL_NAME)
-#Darknet_weights = '/homedtic/ikoren/open/test/w11/w.weights'
-Darknet = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES=TRAIN_CLASSES)
-#load_yolo_weights(Darknet, Darknet_weights) # use darknet weights
-Darknet.load_weights(Darknet_weights)
+# define the path for the trained model
+jony_weights = os.path.join(TRAIN_CHECKPOINTS_FOLDER, TRAIN_MODEL_NAME)
+# create yolo model
+jony = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES=TRAIN_CLASSES)
+# load custom weights to yolov3 model
+jony.load_weights(jony_weights)
 
 yolo = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES=TRAIN_CLASSES)
-for i, l in enumerate(Darknet.layers):
+for i, l in enumerate(jony.layers):
         layer_weights = l.get_weights()
         if layer_weights != []:
             try:
