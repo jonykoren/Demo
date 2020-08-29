@@ -2,7 +2,7 @@
 
 ## Clone this repository
 ```
-git clone https://github.com/quanap5kr/OIDv4-ToolKit.git
+git clone https://github.com/jonykoren/new_name.git
 ```  
 
 ## Download Dataset
