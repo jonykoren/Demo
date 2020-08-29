@@ -32,7 +32,8 @@ Finally, adjust your custom configurations at [config/configs.py](https://github
 ## Training
 The training uses transfer learning of darknet network. You should download the pre-trained model of yolov3 through running the following command:  
 ```
-mkdir config_data  
+mkdir config_data
+cd config_data
 wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 ```  
 
