@@ -29,6 +29,7 @@ python download_dataset.py downloader --classes 'Man' 'Woman' 'Jeans' 'Shirt' 'C
 By running these commands, it will download the images and the .csv annotations files, as well as txt files, each corresponding to an image, inside the labels folder. 
 
 ## Directory structure
+```
 new_name
 │    ...
 |    requirements.txt
@@ -63,7 +64,7 @@ new_name
               │
               └─── Man, Woman, Shorts, Shirt, balloon, ...
 
-
+```
 
 ## Dataset Preparation
 Once the dataset downloaded, we neet to generate xml format files from these txt annotations.
