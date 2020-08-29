@@ -1,5 +1,10 @@
 # Demo
 
+## Clone this repository
+```
+git clone https://github.com/quanap5kr/OIDv4-ToolKit.git
+```  
+
 ## Download Dataset
 I choose to download subset from 'Open Images Dataset V6 + Extensions', by selecting specific classes that i want to train my model on.
 
