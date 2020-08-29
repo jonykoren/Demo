@@ -47,7 +47,7 @@ Finally, you are good to go to train your custom model:
 by running ```python train.py```
 
 ## Tensorboard
-In order to control the process run: ```tensorboard --logdir=weights``` and access it through ```http://127.0.0.1:6006/``` 
+In order to control the process run: ```tensorboard --logdir=logs``` and access it through ```http://127.0.0.1:6006/``` 
 
 ## Detect model
 Detect your trained custom model on image, video or real-time by adjusting the final comments in the following script:  
