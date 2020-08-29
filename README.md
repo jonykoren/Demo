@@ -36,7 +36,11 @@ mkdir config_data
 cd config_data
 wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 ```  
-
+Now, create directories for logs and for weights:  
+```
+mkdir logs
+mkdir weights
+```  
 If you have followed this instructions, you are good to go to train your custom model:
 * [train.py](https://github.com/jonykoren/Demo/blob/master/train.py)  
 by running ```python train.py```
