@@ -5,6 +5,11 @@
 git clone https://github.com/jonykoren/new_name.git
 ```  
 
+## Install the required packages
+```
+pip3 install -r requirements.txt
+```  
+
 ## Download Dataset
 I choose to download subset from 'Open Images Dataset V6 + Extensions', by selecting specific classes that i want to train my model on.
 
