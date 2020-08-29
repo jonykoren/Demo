@@ -28,6 +28,43 @@ python download_dataset.py downloader --classes 'Man' 'Woman' 'Jeans' 'Shirt' 'C
 
 By running these commands, it will download the images and the .csv annotations files, as well as txt files, each corresponding to an image, inside the labels folder. 
 
+## Directory structure
+new_name
+│    ...
+|    requirements.txt
+│    download_dataset.py
+│    Generate_xml_files.py
+|    Prepare_data.py
+|    README.md
+|    train.py
+|    evaluate_mAP.py
+|    detect.py
+│    ...
+└─── data
+      │
+      │
+      └─── csv_folder
+      │   │
+      │   └─── class-descriptions-boxable.csv
+      │   │
+      │   └─── test-annotations-bbox.csv
+      │   │
+      │   └─── train-annotations-bbox.csv
+      │        
+      └─── Dataset
+          │
+          |
+          │
+          └─── train
+          │   │
+          │   └─── Man, Woman, Shorts, Shirt, balloon, ...
+          │   
+          └─── test
+              │
+              └─── Man, Woman, Shorts, Shirt, balloon, ...
+
+
+
 ## Dataset Preparation
 Once the dataset downloaded, we neet to generate xml format files from these txt annotations.
 * [Generate_xml_files.py](https://github.com/jonykoren/Demo/blob/master/Generate_xml_files.py)  
