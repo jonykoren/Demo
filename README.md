@@ -38,6 +38,7 @@ wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 ```  
 Now, create directories for logs and for weights:  
 ```
+cd ..
 mkdir logs
 mkdir weights
 ```  
