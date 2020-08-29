@@ -1,6 +1,6 @@
 YOLO_TYPE                   = "yolov3" # yolov4 or yolov3
 YOLO_FRAMEWORK              = "tf" # "tf" or "trt"
-YOLO_V3_WEIGHTS             = "/homedtic/ikoren/darknet/src/keras_yolo3/yolov3.weights"
+YOLO_V3_WEIGHTS             = "config_data/yolov3.weights"
 YOLO_TRT_QUANTIZE_MODE      = "INT8" # INT8, FP16, FP32
 YOLO_CUSTOM_WEIGHTS         = True # "checkpoints/yolov3_custom" # used in evaluate_mAP.py and custom model detection, if not using leave False
 YOLO_COCO_CLASSES           = "model_data/coco/coco.names"
@@ -17,10 +17,10 @@ YOLO_ANCHORS                = [[[10,  13], [16,   30], [33,   23]],
 TRAIN_YOLO_TINY             = False
 TRAIN_SAVE_BEST_ONLY        = True # saves only best model according validation loss (True recommended)
 TRAIN_SAVE_CHECKPOINT       = False # saves all best validated checkpoints in training process (may require a lot disk space) (False recommended)
-TRAIN_CLASSES               = '/homedtic/ikoren/open/data_names.txt' 
-TRAIN_ANNOT_PATH            = '/homedtic/ikoren/open/config_data/data_train.txt'           
-TRAIN_LOGDIR                = "/homedtic/ikoren/555/logs" # Define path for Logs
-TRAIN_CHECKPOINTS_FOLDER    = "/homedtic/ikoren/555/weights" # Define path for weights
+TRAIN_CLASSES               = 'config_data/data_names.txt' 
+TRAIN_ANNOT_PATH            = 'config_data/data_train.txt'           
+TRAIN_LOGDIR                = "logs" # Define path for Logs
+TRAIN_CHECKPOINTS_FOLDER    = "weights" # Define path for weights
 TRAIN_MODEL_NAME            = f"{YOLO_TYPE}_custom" # model name
 TRAIN_LOAD_IMAGES_TO_RAM    = True # With True faster training, but need more RAM
 TRAIN_BATCH_SIZE            = 8
@@ -34,7 +34,7 @@ TRAIN_WARMUP_EPOCHS         = 2
 TRAIN_EPOCHS                = 100
 
 # TEST options
-TEST_ANNOT_PATH             = '/homedtic/ikoren/open/config_data/data_test.txt' # 
+TEST_ANNOT_PATH             = 'config_data/data_test.txt' # 
 TEST_BATCH_SIZE             = 4
 TEST_INPUT_SIZE             = 416
 TEST_DATA_AUG               = False
