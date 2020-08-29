@@ -26,7 +26,8 @@ Once the dataset downloaded, we neet to generate xml format files from these txt
 by running ```python Generate_xml_files.py```
 
 Then, the following script generates: 'data_names.txt' that contains the class names'data_train.txt' and 'data_test.txt' that contain the mapping firectory and their annotations.
-* [Prepare_data.py](https://github.com/jonykoren/Demo/blob/master/Prepare_data.py)  by running ```python Prepare_data.py```
+* [Prepare_data.py](https://github.com/jonykoren/Demo/blob/master/Prepare_data.py)  
+by running ```python Prepare_data.py```
 
 Finally, adjust your custom configurations at [config/configs.py](https://github.com/jonykoren/Demo/blob/master/config/configs.py) if you want to change some paths 
 
