@@ -37,5 +37,4 @@ If you have followed this instructions, you are good to go to train your custom 
 by running ```python train.py```
 
 ## Tensorboard
-In order to control the process run:  
-```tensorboard --logdir=weights```
+In order to control the process run: ```tensorboard --logdir=weights``` and access it through ```http://127.0.0.1:6006/``` 
