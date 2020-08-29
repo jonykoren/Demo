@@ -43,10 +43,16 @@ In order to control the process run: ```tensorboard --logdir=weights``` and acce
 ## Detect model
 Detect your trained custom model on image, video or real-time by adjusting the final comments in the script:  
 Image:  
-```detect_image(yolo, image_path, img_det, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))```  
+```
+detect_image(yolo, image_path, img_det, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
+```  
 
 Video:  
-```detect_video(yolo, video_path, vidy, input_size=YOLO_INPUT_SIZE, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))```  
+```
+detect_video(yolo, video_path, vidy, input_size=YOLO_INPUT_SIZE, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
+```  
 
 Real-time:  
-```detect_realtime(yolo, vidy, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255, 0, 0))```  
+```
+detect_realtime(yolo, vidy, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255, 0, 0))
+```  
