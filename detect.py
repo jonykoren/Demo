@@ -8,12 +8,12 @@ from config.utils import Create_Yolo, load_yolo_weights, detect_image, detect_vi
 from config.configs import *
 
 # Image input and output directories
-image_path   = "/homedtic/ikoren/open/v.jpg"
-img_det = "/homedtic/ikoren/open/v_DETECTED.jpg"
+image_path   = "/path/to/img.jpg"
+img_det = "/path/to/img_detected.jpg"
 
 # Video input and output directories
-video_path   = "/homedtic/ikoren/open/1.mp4"
-vidy = '/homedtic/ikoren/open/1_DETECTED.mp4'
+video_path   = "/path/to/vid.mp4"
+vidy = '/path/to/vid_detected.mp4'
 
 
 #Darknet_weights = YOLO_V3_WEIGHTS
@@ -37,7 +37,7 @@ optimizer = tf.keras.optimizers.Adam()
 
 detect_image(yolo, image_path, img_det, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
 #detect_video(yolo, video_path, vidy, input_size=YOLO_INPUT_SIZE, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
-#detect_realtime(yolo, vidy, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255, 0, 0))
+#detect_realtime(yolo, "", input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255, 0, 0))
 
 
 
