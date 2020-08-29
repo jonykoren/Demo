@@ -114,3 +114,7 @@ Real-time:
 ```
 detect_realtime(yolo, vidy, input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255, 0, 0))
 ```  
+
+<p align="center">
+  <img src="https://github.com/jonykoren/End_to_end_YOLOv3/blob/master/yolov3.jpg?raw=true">
+</p>
