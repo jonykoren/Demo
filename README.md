@@ -41,7 +41,9 @@ by running ```python train.py```
 In order to control the process run: ```tensorboard --logdir=weights``` and access it through ```http://127.0.0.1:6006/``` 
 
 ## Detect model
-Detect your trained custom model on image, video or real-time by adjusting the final comments in the script:  
+Detect your trained custom model on image, video or real-time by adjusting the final comments in the following script:  
+* [detect.py](https://github.com/jonykoren/Demo/blob/master/detect.py)  
+by running ```python detect.py```
 
 Image:  
 ```
