@@ -3,7 +3,8 @@
 ## Data Creation
 
 I choose to download subset from 'Open Images Dataset V6 + Extensions', by selecting specific classes that i want to train my model on.
-\nAfter the ```--classes``` command, insert your desired classes by exploring the: [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
+
+After the ```--classes``` command, insert your desired classes by exploring the: [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
 
 * Download train set:
 ```
