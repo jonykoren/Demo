@@ -1,0 +1,12 @@
+tensorflow==2.2.0
+tensorflow-gpu==2.2.0
+tensorboard==2.2.1
+keras==2.4.3
+cudnn==7.6.5
+cudatoolkit==10.1.243
+pandas
+numpy
+awscli
+urllib3
+tqdm
+opencv-python==4.1.2.30
