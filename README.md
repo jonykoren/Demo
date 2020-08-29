@@ -31,7 +31,6 @@ By running these commands, it will download the images and the .csv annotations 
 ## Directory structure
 ```
 new_name
-│    ...
 |    requirements.txt
 │    download_dataset.py
 │    Generate_xml_files.py
@@ -43,7 +42,6 @@ new_name
 │    ...
 └─── data
       │
-      │
       └─── csv_folder
       │   │
       │   └─── class-descriptions-boxable.csv
@@ -53,8 +51,6 @@ new_name
       │   └─── train-annotations-bbox.csv
       │        
       └─── Dataset
-          │
-          |
           │
           └─── train
           │   │
