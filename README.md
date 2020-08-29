@@ -1,6 +1,6 @@
 # Demo
 
-## Dataset
+## Download Dataset
 
 I choose to download subset from 'Open Images Dataset V6 + Extensions', by selecting specific classes that i want to train my model on.
 
@@ -18,6 +18,8 @@ python main.py downloader --classes 'Man' 'Woman' 'Jeans' 'Shirt' 'Coffee' 'Dog'
 python main.py downloader --classes 'Man' 'Woman' 'Jeans' 'Shirt' 'Coffee' 'Dog' 'Cat' 'Hat' 'Shorts' 'Balloon' --type_csv test --limit 5000
 ```
 By running these commands, it will download the images and the .csv annotations files, as well as txt files, each corresponding to an image, inside the labels folder. 
+
+## Dataset Preparation
 
 Once the dataset downloaded, we neet to generate xml format files from these txt annotations.
 * [Generate_xml_files.py](https://github.com/jonykoren/Demo/blob/master/Generate_xml_files.py)
