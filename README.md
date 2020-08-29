@@ -19,4 +19,8 @@ python main.py downloader --classes 'Man' 'Woman' 'Jeans' 'Shirt' 'Coffee' 'Dog'
 ```
 By running these commands, it will download the images and the .csv annotations files, as well as txt files, each corresponding to an image, inside the labels folder. 
 
-Once we have downloaded the dataset, we neet to generate xml format files from these txt annotations.
+Once the dataset downloaded, we neet to generate xml format files from these txt annotations.
+* [Generate_xml_files.py](https://github.com/jonykoren/Demo/blob/master/Generate_xml_files.py)
+
+Then, the following script generates: 'data_names.txt' that contains the class names'data_train.txt' and 'data_test.txt' that contain the mapping firectory and their annotations.
+* [Prepare_data.py](https://github.com/jonykoren/Demo/blob/master/Prepare_data.py)
