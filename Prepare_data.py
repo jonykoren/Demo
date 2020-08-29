@@ -6,9 +6,9 @@ foldername = os.path.basename(os.getcwd())
 
 
 data_dir = '/OID/Dataset/'
-Dataset_names_path = "/homedtic/ikoren/open/data_names.txt"
-Dataset_train = "/homedtic/ikoren/open/conig_data/data_train.txt"
-Dataset_test = "/homedtic/ikoren/open/conig_data/data_test.txt"
+Dataset_names_path = "config_data/data_names.txt"
+Dataset_train = "config_data/data_train.txt"
+Dataset_test = "config_data/data_test.txt"
 is_subfolder = True
 
 Dataset_names = []
