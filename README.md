@@ -33,4 +33,4 @@ Finally, adjust your custom configurations at [config/configs.py](https://github
 
 ## Training
 If you have followed this instructions, you are good to go to train your custom model:
-* * [train.py](https://github.com/jonykoren/Demo/blob/master/train.py)
+* [train.py](https://github.com/jonykoren/Demo/blob/master/train.py)
