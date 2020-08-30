@@ -36,7 +36,7 @@ By running these commands, it will download the images and the .csv annotations 
 ## Directory structure
 ```
 Object_Detection_YOLOv3
-|  
+|    ...
 |    requirements.txt
 │    download_dataset.py
 │    Generate_xml_files.py
