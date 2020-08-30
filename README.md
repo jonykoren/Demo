@@ -1,6 +1,7 @@
 # Object Detection - Training custom Yolov3 model
 Using Tensorflow 2, with darknet transfer learning.  
-This repository demonstrates how to train your own YOLOv3 model, and uses example of training the following 10 classes: Dog, Balloon, Hat, Shirt, Cat, Woman, Man, Jeans, Coffee, Shorts  
+This repository demonstrates how to train your own YOLOv3 model, and uses example of training the following 10 classes:  
+Dog, Balloon, Hat, Shirt, Cat, Woman, Man, Jeans, Coffee, Shorts  
 Finally, you can test your model on images, videos and real-time object detection
 
 
