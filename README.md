@@ -7,7 +7,7 @@ Finally, you can test your model on images, videos and real-time object detectio
 
 ## Clone this repository
 ```
-git clone https://github.com/jonykoren/new_name.git
+git clone https://github.com/jonykoren/Object_Detection_YOLOv3.git
 ```  
 
 ## Install the required packages
@@ -35,7 +35,8 @@ By running these commands, it will download the images and the .csv annotations 
 
 ## Directory structure
 ```
-new_name
+Object_Detection_YOLOv3
+|  
 |    requirements.txt
 │    download_dataset.py
 │    Generate_xml_files.py
