@@ -1,6 +1,8 @@
-# End-to-end custom Yolov3 model
+# Object Detection - Training custom Yolov3 model
 Using Tensorflow 2, with darknet transfer learning.  
-This repository demonstrates how to train your own YOLOv3 model, and uses example of training the following 10 classes: Dog, Balloon, Hat, Shirt, Cat, Woman, Man, Jeans, Coffee, Shorts
+This repository demonstrates how to train your own YOLOv3 model, and uses example of training the following 10 classes: Dog, Balloon, Hat, Shirt, Cat, Woman, Man, Jeans, Coffee, Shorts  
+Finally, you can test your model on images, videos and real-time object detection
+
 
 ## Clone this repository
 ```
@@ -13,7 +15,7 @@ pip3 install -r requirements.txt
 ```  
 
 ## Download Dataset
-I choose to download subset from 'Open Images Dataset V6 + Extensions', by selecting specific classes that i want to train my model on.
+I choose to download subset from 'Open Images Dataset V6 + Extensions', by selecting specific classes that i want to train my model on
 
 After the ```--classes``` command, insert your desired classes by exploring the [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)  
 You can also limit the images you want to download by the value after the ```--limit``` command
