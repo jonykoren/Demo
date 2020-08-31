@@ -7,8 +7,7 @@ Finally, you can test your model on images, videos and real-time object detectio
 ## YOLOv3 Object detection
 Prior detection systems repurpose classifiers or localizers to perform detection. They apply the model to an image at multiple locations and scales. High scoring regions of the image are considered detections.  
 YOLOv3 applies a single neural network to the full image. The network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.  
-It looks at the whole image at test time so its predictions are informed by global context in the image. It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image. This makes it extremely fast, more than 1000x faster than R-CNN and 100x faster than Fast R-CNN.
-
+It looks at the whole image at test time so its predictions are informed by global context in the image. It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image. This makes it extremely fast, more than 1000x faster than R-CNN and 100x faster than Fast R-CNN. [Watch the full description](https://pjreddie.com/darknet/yolo/)
 ## Clone this repository
 ```
 git clone https://github.com/jonykoren/Object_Detection_YOLOv3.git
