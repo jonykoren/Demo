@@ -36,7 +36,7 @@ python download_dataset.py downloader --classes 'Man' 'Woman' 'Jeans' 'Shirt' 'C
 
 By running these commands, it will download the images and the .csv annotations files, as well as txt files, each corresponding to an image, inside the labels folder. 
 
-## Directory structure
+## Structure
 ```
 Object_Detection_YOLOv3
 |    ...
