@@ -14,6 +14,7 @@ git clone https://github.com/jonykoren/Object_Detection_YOLOv3.git
 ```  
 
 ## Install the required packages
+tested with python3.6
 ```
 pip3 install -r requirements.txt
 ```  
