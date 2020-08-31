@@ -1,3 +1,5 @@
+# https://jonykoren.github.io/
+
 import cv2
 import time
 import random
@@ -6,7 +8,7 @@ import numpy as np
 import tensorflow as tf
 from config.configs import *
 from tensorflow.keras.layers import Conv2D, Input, LeakyReLU, ZeroPadding2D, BatchNormalization, MaxPool2D
-from tensorflow.keras.regularizers import l2
+from tensorflow.keras.regularizers import l2 # Regularization
 
 STRIDES         = np.array(YOLO_STRIDES)
 ANCHORS         = (np.array(YOLO_ANCHORS).T/STRIDES).T
