@@ -1,3 +1,4 @@
+# https://jonykoren.github.io/
 tensorflow==2.2.0
 tensorflow-gpu==2.2.0
 tensorboard==2.2.1
