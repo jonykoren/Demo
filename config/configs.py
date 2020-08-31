@@ -1,3 +1,5 @@
+# https://jonykoren.github.io/
+
 YOLO_TYPE                   = "yolov3" # yolov4 or yolov3
 YOLO_FRAMEWORK              = "tf" # "tf" or "trt"
 YOLO_V3_WEIGHTS             = "config_data/yolov3.weights"
